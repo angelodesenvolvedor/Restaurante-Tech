@@ -33,4 +33,4 @@
 
 ## 👷 Autor
 
-**Angelo Silvano** - *Front-End Developer* - [nome_do_dev]()
+- **Angelo Silvano** - *Front-End Developer* - [angelodesenvolvedor]()
