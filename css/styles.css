@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Estilos gerais */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #f4f4f4; /* Cor de fundo do corpo da página */
+  color: #333333; /* Cor do texto */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Estilos específicos para o header */
+header {
+  background-color: #343a40; /* Cor de fundo do cabeçalho */
+  color: #ffffff; /* Cor do texto do cabeçalho */
+  padding: 20px 0;
+}
+
+/* Estilos para o menu de navegação */
+.navbar {
+  background-color: #343a40; /* Cor de fundo do menu */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important; /* Cor do texto dos links */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffd166 !important; /* Cor do texto dos links ao passar o mouse */
+}
+
+/* Estilos para os itens do menu */
+.navbar-nav .nav-item {
+  margin-right: 20px; /* Espaçamento entre os itens do menu */
+}
+
+.navbar-nav .nav-item:last-child {
+  margin-right: 0; /* Remove o espaçamento do último item */
+}
+
+/* Fechar o menu ao clicar em um link */
+.navbar-collapse.collapse {
+  display: none;
+}
+
+.navbar-nav .nav-link:focus + .dropdown-menu {
+  display: none;
+}
+
+.navbar-nav .nav-link:focus {
+  outline: none;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.nav-item:focus .dropdown-menu {
+  display: block;
+}
+
+/* Estilos específicos para as seções do site */
+#about,
+#menu,
+#reservation,
+#contact {
+  background-color: #ffffff; /* Cor de fundo das seções */
+  padding: 50px 0; /* Espaçamento interno das seções */
+}
+
+#about {
+  font-size: 18px; /* Aumenta o tamanho da fonte */
+  line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
+  color: #333333; /* Cor do texto */
+  font-family: "Open Sans", sans-serif; /* Usando a fonte Open Sans */
+}
+
+#about p {
+  font-style: italic; /* Aplica o estilo itálico */
+  font-family: "Arial", sans-serif; /* Usando uma fonte semelhante ao itálico */
+}
+
+
+/* Estilos específicos para o cardápio */
+#menu {
+  background-color: #f8f9fa; /* Cor de fundo do cardápio */
+  padding: 50px 0;
+}
+
+.menu-item {
+  background-color: #ffffff; /* Cor de fundo dos itens do cardápio */
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px; /* Adiciona espaçamento entre os itens */
+}
+
+.menu-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.menu-item h3 {
+  margin-top: 15px;
+  font-style: italic; /* Adiciona estilo itálico aos títulos */
+}
+
+.menu-item p {
+  font-size: 16px;
+  line-height: 1.6;
+  height: 120px; /* Altura fixa para os textos */
+  overflow: hidden; /* Oculta o excesso de texto */
+}
+
+p {
+  text-align: justify;
+}
+
+.menu-item span {
+  font-size: 24px; /* Tamanho maior para os preços */
+  font-weight: bold;
+  color: #ff6b6b; /* Cor dos preços */
+  display: block; /* Para ocupar uma linha separada */
+  margin-top: 10px; /* Espaçamento superior */
+}
+
+/* Estilos específicos para o carrossel de depoimentos */
+#testimonials {
+  padding: 50px 0;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.testimonial-text {
+  font-style: italic;
+}
+
+.testimonial-author {
+  margin-top: 20px;
+}
+
+/* Estilos específicos para o formulário de reservas */
+#reservation {
+  background-color: #ffffff; /* Cor de fundo do formulário de reservas */
+  padding: 50px 0;
+}
+
+#reservation form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Estilos específicos para a seção de notícias */
+#noticias {
+  background-color: #f8f9fa; /* Cor de fundo da seção */
+  padding: 50px 0; /* Espaçamento interno da seção */
+}
+
+#noticias h2 {
+  text-align: center;
+  color: #333333; /* Cor do título */
+  margin-bottom: 30px; /* Espaçamento inferior para separar do conteúdo */
+}
+
+.noticia {
+  background-color: #ffffff; /* Cor de fundo dos itens de notícias */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Adiciona espaçamento entre os itens */
+}
+
+.noticia h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.noticia p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.noticia p:last-child {
+  margin-bottom: 0; /* Remove o espaçamento inferior do último parágrafo */
+}
+
+/* Estilos específicos para a seção de História do Restaurante Tech */
+#history {
+  background-color: #ffffff; /* Cor de fundo da seção */
+  padding: 50px 0; /* Espaçamento interno da seção */
+  border-top: 2px solid #ffd700; /* Adiciona uma borda superior amarela */
+  border-bottom: 2px solid #ffd700; /* Adiciona uma borda inferior amarela */
+}
+
+#history h2 {
+  text-align: center;
+  color: #333333; /* Cor do título da história do restaurante */
+  margin-bottom: 30px; /* Espaçamento inferior para separar do conteúdo */
+}
+
+#history p {
+  text-align: justify;
+  color: #666666; /* Cor do texto da história do restaurante */
+}
+
+
+/* Estilos específicos para a seção de Eventos Especiais */
+#events {
+  background-color: #f8f9fa; /* Cor de fundo da seção */
+  padding: 50px 0; /* Espaçamento interno da seção */
+}
+
+.event {
+  background-color: #ffffff; /* Cor de fundo dos eventos */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Adiciona espaçamento entre os eventos */
+}
+
+.event img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.event h3 {
+  margin-top: 15px;
+}
+
+.event p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.event p strong {
+  font-weight: bold;
+}
+
+.event p:last-child {
+  margin-bottom: 0; /* Remove o espaçamento inferior do último parágrafo */
+}
+
+/* Estilos específicos para a seção de contato */
+#contact {
+  background-color: #f8f9fa; /* Cor de fundo da seção de contato */
+  padding: 50px 0;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+/* Estilos específicos para o rodapé */
+footer {
+  background-color: #343a40; /* Cor de fundo do rodapé */
+  color: #ffffff; /* Cor do texto do rodapé */
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin-bottom: 0;
+}

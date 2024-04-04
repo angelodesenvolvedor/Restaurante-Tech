@@ -1,0 +1,92 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+  
+  /* Estilos específicos para o header */
+  header {
+    background-color: #343a40; /* Cor de fundo do cabeçalho */
+    color: #ffffff; /* Cor do texto do cabeçalho */
+    padding: 20px 0;
+  }
+  
+  /* Estilos para o menu de navegação */
+  .navbar {
+    background-color: #343a40; /* Cor de fundo do menu */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff !important; /* Cor do texto dos links */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffd166 !important; /* Cor do texto dos links ao passar o mouse */
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 20px; /* Espaçamento entre os itens do menu */
+  }
+  
+  .navbar-nav .nav-item:last-child {
+    margin-right: 0; /* Remove o espaçamento do último item */
+  }
+  
+  .navbar-toggler {
+    border: none; /* Remove a borda do botão de alternância */
+  }
+  
+  /* Estilos para o conteúdo da notícia */
+  #noticia-detalhada {
+    padding: 50px 0;
+  }
+  
+  #noticia-detalhada .container {
+    text-align: justify; /* Alinhar o texto justificado */
+  }
+  
+  #noticia-detalhada h2 {
+    color: #333333; /* Cor do título */
+    margin-bottom: 30px; /* Espaçamento inferior para separar do conteúdo */
+  }
+  
+  #noticia-detalhada .noticia {
+    margin-bottom: 20px; /* Espaçamento inferior entre as notícias */
+  }
+  
+  #noticia-detalhada .noticia p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  #noticia-detalhada .noticia ul {
+    margin-bottom: 10px;
+  }
+  
+  #noticia-detalhada .noticia ul li {
+    list-style-type: disc; /* Estilo de marcadores de lista */
+  }
+  
+/* Estilos específicos para o rodapé */
+footer {
+    background-color: #343a40; /* Cor de fundo do rodapé */
+    color: #ffffff; /* Cor do texto do rodapé */
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    transition: background-color 0.3s ease; /* Animação de transição para a cor de fundo */
+  }
+  
+footer p {
+    margin-bottom: 0;
+}
+  
