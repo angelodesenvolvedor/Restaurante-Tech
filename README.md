@@ -30,3 +30,7 @@
 - ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) - Utilizado principalmente para o layout da página, grid system, componentes e estilos predefinidos.
 - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) - Foi utilizado para validar formulários, criar e manipular elementos dinâmicos, como o carrossel de depoimentos, e realizar outras operações de cliente.
 - ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) - Biblioteca JavaScript amplamente utilizada que simplifica a manipulação do DOM e interações com o usuário. Facilita o desenvolvimento de funcionalidades interativas com menos código.
+
+## 👷 Autor
+
+**Angelo Silvano** - *Front-End Developer* - [nome_do_dev]()
